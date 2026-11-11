@@ -1,26 +1,25 @@
 {
-  "id": "/barberia-paolo-montano/",
+  "id": "./",
   "name": "American Style Paolo Montaño",
   "short_name": "Paolo Montaño",
   "lang": "es",
-  "start_url": "/barberia-paolo-montano/index.html",
-  "scope": "/barberia-paolo-montano/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#101014",
   "theme_color": "#101014",
   "icons": [
     {
-      "src": "/barberia-paolo-montano/assets/icon-192.png",
+      "src": "assets/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/barberia-paolo-montano/assets/icon-512.png",
+      "src": "assets/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     }
-  ],
-  "prefer_related_applications": false
+  ]
 }
