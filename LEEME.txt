@@ -1,6 +1,6 @@
-AMERICAN STYLE PAOLO MONTAÑO — PWA v0.1.1
+AMERICAN STYLE PAOLO MONTAÑO — PWA v0.1.2
 
-DEMOSTRACIÓN: NO HAY AGENDA CONECTADA TODAVÍA.
+DEMOSTRACIÓN: AGENDA DE PRUEBAS CONECTADA.
 1. Crea una agenda de citas en tu cuenta gratuita de Google Calendar.
 2. Copia el enlace público de su página de reservas (no el enlace de tu calendario privado).
 3. Abre config.js y pega el enlace entre las comillas de agendaUrl.
@@ -17,4 +17,7 @@ La interfaz puede abrir sin conexión tras una primera visita; reservar requiere
 
 No se incluyen precios, horarios, dirección ni nombres no confirmados. El teléfono y la marca provienen de la foto proporcionada. Instagram enlaza al reel suministrado, cuyo contenido no pudo verificarse.
 Iconos extraídos del logo proporcionado. Fotografía del propietario proporcionada por el usuario.
-Commit sugerido: feat: rediseño American Style Paolo Montaño v0.1.1 con logo y foto del propietario
+Commit sugerido: feat: conectar agenda de pruebas de Paolo en PWA v0.1.2
+
+Agenda conectada: https://calendar.app.google/KNpyzkrPb4wdaJmDA
+Las dos tarjetas comparten esta agenda. No son calendarios independientes.
