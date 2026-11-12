@@ -1,23 +1,17 @@
-AMERICAN STYLE PAOLO MONTAÑO — PWA v0.1.2
+AMERICAN STYLE PAOLO MONTAÑO — PWA v0.1.4
+Base: v0.1.2. No incluye los ajustes experimentales de instalación v0.1.3.
 
-DEMOSTRACIÓN: AGENDA DE PRUEBAS CONECTADA.
-1. Crea una agenda de citas en tu cuenta gratuita de Google Calendar.
-2. Copia el enlace público de su página de reservas (no el enlace de tu calendario privado).
-3. Abre config.js y pega el enlace entre las comillas de agendaUrl.
-4. Ambas tarjetas abrirán esa misma agenda: NO son agendas independientes y no se transmite el barbero seleccionado. Usa únicamente citas de prueba.
-5. El segundo nombre es provisional. Cambia barberos en config.js cuando estén confirmados.
+NOVEDADES
+Solo Paolo, foto FotoPaolo1.jpeg en portada y tarjeta de reservas.
+Portada vibrante con colores rojo, azul y negro. Iconos Facebook, Instagram, TikTok y WhatsApp con aviso de enlaces pendientes; no envían mensajes ni abren cuentas no confirmadas.
+Agenda de prueba existente conservada. Las citas NO son reservas reales.
+Versión visible en cabecera y pie.
 
-PUBLICACIÓN
-Sube el contenido de esta carpeta a un alojamiento estático con HTTPS. Las rutas son relativas y admiten subcarpetas. El código puede guardarse en GitHub; revisa las condiciones de GitHub Pages antes de usarlo para un negocio.
-Para revisar localmente: python3 -m http.server 8080 (desde esta carpeta), y abre http://localhost:8080.
-Abrir index.html directamente permite revisar el diseño, pero la instalación PWA requiere HTTPS o localhost.
-Android: instalar desde el navegador si aparece la opción.
-iPhone: Safari > Compartir > Añadir a pantalla de inicio.
-La interfaz puede abrir sin conexión tras una primera visita; reservar requiere Internet.
+PUBLICAR
+Descomprime y sube todo el contenido a la raíz de barberia-paolo-montano, incluida la carpeta assets y style.css. No subas el ZIP.
+Commit: feat: portada vibrante y reservas solo con Paolo v0.1.4
+Actualiza la página y comprueba v0.1.4.
 
-No se incluyen precios, horarios, dirección ni nombres no confirmados. El teléfono y la marca provienen de la foto proporcionada. Instagram enlaza al reel suministrado, cuyo contenido no pudo verificarse.
-Iconos extraídos del logo proporcionado. Fotografía del propietario proporcionada por el usuario.
-Commit sugerido: feat: conectar agenda de pruebas de Paolo en PWA v0.1.2
-
-Agenda conectada: https://calendar.app.google/KNpyzkrPb4wdaJmDA
-Las dos tarjetas comparten esta agenda. No son calendarios independientes.
+PWA
+Abrir desde HTTPS para instalar. Reservar requiere Internet. El fallo de instalación de un Android observado en versiones anteriores sigue pendiente; esta entrega no pretende corregirlo.
+Los iconos, el manifiesto y la lógica de instalación proceden de v0.1.2.
