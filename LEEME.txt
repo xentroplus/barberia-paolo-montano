@@ -1,20 +1,22 @@
-AMERICAN STYLE PAOLO MONTAÑO — PWA v0.1.5
-Base: v0.1.2. No incluye los ajustes experimentales de instalación v0.1.3.
+AMERICAN STYLE PAOLO MONTAÑO — PWA v0.1.6
 
 NOVEDADES
-Solo Paolo, foto FotoPaolo1.jpeg en portada y tarjeta de reservas.
-Portada vibrante con colores rojo, azul y negro. Iconos Facebook, Instagram, TikTok y WhatsApp con aviso de enlaces pendientes; no envían mensajes ni abren cuentas no confirmadas.
-Agenda de prueba existente conservada. Las citas NO son reservas reales.
-Versión visible en cabecera y pie.
+- Imagen del local basada en fotografías reales, con iluminación y encuadre mejorados.
+- Dirección con icono de ubicación y enlace de búsqueda en Google Maps:
+  Juana Atabalipa y Luis Toro Moreno, esquina. Frente a la Iglesia del Quince. Ibarra, Ecuador.
+- Aviso de puntualidad junto al botón de reservas.
+- Conserva foto de Paolo, diseño, iconos sociales y agenda de prueba.
+- Versión visible: v0.1.6. Caché y recursos actualizados a la misma versión.
 
-PUBLICAR
-Descomprime y sube todo el contenido a la raíz de barberia-paolo-montano, incluida la carpeta assets y style.css. No subas el ZIP.
-Commit: feat: portada vibrante y reservas solo con Paolo v0.1.5
-Actualiza la página y comprueba v0.1.5.
+PUBLICAR EN GITHUB PAGES
+Descomprime y sube todo el contenido a la raíz de barberia-paolo-montano,
+incluidas la carpeta assets y style.css. No subas el ZIP.
+Commit: feat: imagen real del local, ubicación en Google Maps y puntualidad v0.1.6
 
-PWA
-Abrir desde HTTPS para instalar. Reservar requiere Internet. El fallo de instalación de un Android observado en versiones anteriores sigue pendiente; esta entrega no pretende corregirlo.
-Los iconos, el manifiesto y la lógica de instalación proceden de v0.1.2.
-
-CORRECCIÓN v0.1.5: reserva mediante enlace HTML directo, funcional aunque JavaScript falle. Agenda de pruebas conservada. Recursos versionados para evitar mezcla de scripts antiguos.
-Commit: fix: restaurar acceso directo a agenda de pruebas v0.1.5
+PRUEBA DESPUÉS DE PUBLICAR
+Abre la mini app con conexión a Internet, recarga y comprueba v0.1.6.
+Verifica imagen, apertura de Maps y acceso a la agenda desde tus dispositivos.
+Los enlaces sociales siguen pendientes de configuración.
+La agenda sigue siendo una demostración; los turnos no son citas reales.
+La búsqueda en Maps utiliza la dirección textual, sin un pin verificado.
+La configuración de instalación PWA se conserva; no se han cambiado sus rutas ni identificador.
