@@ -1,22 +1,29 @@
-AMERICAN STYLE PAOLO MONTAÑO — PWA v0.1.6
+AMERICAN STYLE PAOLO MONTAÑO — PWA v1.0.0
+VERSIÓN OFICIAL
 
-NOVEDADES
-- Imagen del local basada en fotografías reales, con iluminación y encuadre mejorados.
-- Dirección con icono de ubicación y enlace de búsqueda en Google Maps:
-  Juana Atabalipa y Luis Toro Moreno, esquina. Frente a la Iglesia del Quince. Ibarra, Ecuador.
-- Aviso de puntualidad junto al botón de reservas.
-- Conserva foto de Paolo, diseño, iconos sociales y agenda de prueba.
-- Versión visible: v0.1.6. Caché y recursos actualizados a la misma versión.
+Agenda de Paolo: https://calendar.app.google/qvaKHMWUNUzJ63rbA
+WhatsApp: https://wa.me/593983604971
+TikTok: https://www.tiktok.com/@americanstyle.16
+Instagram: https://www.instagram.com/american_style_paolo_m/
+Facebook: https://www.facebook.com/profile.php?id=61572341731652
 
-PUBLICAR EN GITHUB PAGES
-Descomprime y sube todo el contenido a la raíz de barberia-paolo-montano,
-incluidas la carpeta assets y style.css. No subas el ZIP.
-Commit: feat: imagen real del local, ubicación en Google Maps y puntualidad v0.1.6
+Los botones de redes y reservas son enlaces directos y funcionan aunque
+JavaScript no esté disponible. WhatsApp abre el contacto sin enviar mensajes.
+Se retiraron las etiquetas de demostración y los avisos de enlaces pendientes.
+Se conservan diseño, foto oficial, logo, fachada, dirección en Google Maps,
+aviso de puntualidad e identidad de instalación PWA de v0.1.6.
 
-PRUEBA DESPUÉS DE PUBLICAR
-Abre la mini app con conexión a Internet, recarga y comprueba v0.1.6.
-Verifica imagen, apertura de Maps y acceso a la agenda desde tus dispositivos.
-Los enlaces sociales siguen pendientes de configuración.
-La agenda sigue siendo una demostración; los turnos no son citas reales.
-La búsqueda en Maps utiliza la dirección textual, sin un pin verificado.
-La configuración de instalación PWA se conserva; no se han cambiado sus rutas ni identificador.
+PUBLICAR
+Descomprime y sube TODO el contenido de este ZIP a la raíz del repositorio
+xentroplus/barberia-paolo-montano, incluida la carpeta assets.
+Reemplaza index.html, app.js, config.js, sw.js, style.css y demás archivos.
+No subas el ZIP ni una carpeta contenedora.
+
+Commit: release: mini app oficial de Paolo v1.0.0 con agenda y redes definitivas
+
+DESPUÉS DE PUBLICAR
+Abre https://xentroplus.github.io/barberia-paolo-montano/ con conexión,
+recarga y comprueba v1.0.0 en cabecera y pie.
+Prueba reserva, WhatsApp, TikTok, Instagram, Facebook y Google Maps.
+La disponibilidad y la duración de las citas se administran en Google Calendar.
+El QR existente sigue siendo válido porque la dirección de la mini app se conserva.
